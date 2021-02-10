@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Scoreboard = ({ score, lives, answer }) => {
+export const Scoreboard = ({ score, lives, answer, numCountries }) => {
     if (lives <= 0) {
         return (
             <section>
@@ -15,6 +15,7 @@ export const Scoreboard = ({ score, lives, answer }) => {
         <section>
             <p>Current score: {score}</p>
             <p>Remaining Lives: {lives}</p>
+            <p>Remaining Counties: {numCountries}</p>
         </section>
     )
 }
