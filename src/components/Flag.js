@@ -1,7 +1,7 @@
 import React from 'react'
 
 const flagStyle = {
-    width: "60vw",
+    width: "70vw",
     height: "40vh",
     border: '1px solid black',
     padding: '0.2rem'

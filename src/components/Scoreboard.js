@@ -15,7 +15,7 @@ export const Scoreboard = ({ score, lives, answer, numCountries }) => {
         <section>
             <p>Current score: {score}</p>
             <p>Remaining Lives: {lives}</p>
-            <p>Remaining Counties: {numCountries}</p>
+            <p>Remaining Countries: {numCountries}</p>
         </section>
     )
 }
